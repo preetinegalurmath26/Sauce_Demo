@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-19T23:00:23 IST" name="Suite" finished-at="2025-12-19T23:00:41 IST" duration-ms="17746">
+    <groups>
+      <group name="Regression">
+        <method signature="LoginPage.VerifySuccessfullLogin()[pri:0, instance:TestCases.LoginPage@2f54a33d]" name="VerifySuccessfullLogin" class="TestCases.LoginPage"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-12-19T23:00:23 IST" name="Test" finished-at="2025-12-19T23:00:41 IST" duration-ms="17746">
+      <class name="TestCases.LoginPage">
+        <test-method is-config="true" signature="initiateExtentReporting()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:23 IST" name="initiateExtentReporting" finished-at="2025-12-19T23:00:23 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateExtentReporting -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:23 IST" name="LaunchBrowser" finished-at="2025-12-19T23:00:31 IST" duration-ms="8098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="VerifySuccessfullLogin()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:31 IST" name="VerifySuccessfullLogin" description="Verify user enters valid credentials and successful login after clicking the login button" finished-at="2025-12-19T23:00:32 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySuccessfullLogin -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:32 IST" name="CloseBrowser" finished-at="2025-12-19T23:00:32 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:32 IST" name="LaunchBrowser" finished-at="2025-12-19T23:00:35 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyInvalidCredentials1(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:35 IST" name="verifyInvalidCredentials1" data-provider="InvalidCredentialsData" finished-at="2025-12-19T23:00:36 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials1 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:36 IST" name="CloseBrowser" finished-at="2025-12-19T23:00:36 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:36 IST" name="LaunchBrowser" finished-at="2025-12-19T23:00:38 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyInvalidCredentials1(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:38 IST" name="verifyInvalidCredentials1" data-provider="InvalidCredentialsData" finished-at="2025-12-19T23:00:38 IST" duration-ms="289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello2345]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials1 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:38 IST" name="CloseBrowser" finished-at="2025-12-19T23:00:38 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:38 IST" name="LaunchBrowser" finished-at="2025-12-19T23:00:41 IST" duration-ms="2238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method signature="verifyInvalidCredentials1(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:41 IST" name="verifyInvalidCredentials1" data-provider="InvalidCredentialsData" finished-at="2025-12-19T23:00:41 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[teytwudg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9876abc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials1 -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:41 IST" name="CloseBrowser" finished-at="2025-12-19T23:00:41 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method is-config="true" signature="stopReport()[pri:0, instance:TestCases.LoginPage@2f54a33d]" started-at="2025-12-19T23:00:41 IST" name="stopReport" finished-at="2025-12-19T23:00:41 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopReport -->
+      </class> <!-- TestCases.LoginPage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
